@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Result;
 BEGIN {
-  $Antispam::Toolkit::Result::VERSION = '0.02';
+  $Antispam::Toolkit::Result::VERSION = '0.03';
 }
 
 use strict;
@@ -47,7 +47,7 @@ Antispam::Toolkit::Result - Represents the result of a spam check
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 

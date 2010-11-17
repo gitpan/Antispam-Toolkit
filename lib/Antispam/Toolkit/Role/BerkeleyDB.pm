@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::BerkeleyDB;
 BEGIN {
-  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.02';
+  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.03';
 }
 
 use strict;
@@ -168,7 +168,7 @@ Antispam::Toolkit::Role::BerkeleyDB - A role for classes which store spam check 
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 SYNOPSIS
 
@@ -290,7 +290,7 @@ default, it expects the value to match a key stored in the database.
 
 =head1 ROLES
 
-This role does the L<Antispam::Toolkit::Database> role. It provides an
+This role does the L<Antispam::Toolkit::Role::Database> role. It provides an
 implementation of C<< $db->match_value() >> method, but you can write your own
 if necessary.
 

@@ -1,6 +1,6 @@
 package Antispam::Toolkit;
 BEGIN {
-  $Antispam::Toolkit::VERSION = '0.02';
+  $Antispam::Toolkit::VERSION = '0.03';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Antispam::Toolkit - Classes, roles, and types for use by other Antispam modules
 
 =head1 VERSION
 
-version 0.02
+version 0.03
 
 =head1 DESCRIPTION
 
@@ -41,26 +41,26 @@ A class for describing the result of a spam check.
 
 Exports some useful types using L<MooseX::Types>.
 
-=head2 L<Antispam::Role::BerkeleyDB>
+=head2 L<Antispam::Toolkit::Role::BerkeleyDB>
 
 A role which can be used when you want to store data in a BerkeleyDB
 database. This might be something like a list of known-bad ip addresses or
 email addresses.
 
-=head2 L<Antispam::Role::Database>
+=head2 L<Antispam::Toolkit::Role::Database>
 
 This is an interface-only role for classes that do some sort of database
 lookup (SQL, Berkeley DB, etc.)
 
-=head2 L<Antispam::Role::ContentChecker>
+=head2 L<Antispam::Toolkit::Role::ContentChecker>
 
 A role for classes which check whether a piece of content is spam.
 
-=head2 L<Antispam::Role::LinkChecker>
+=head2 L<Antispam::Toolkit::Role::LinkChecker>
 
 A role for classes which check whether a link is linking to a spam site.
 
-=head2 L<Antispam::Role::UserChecker>
+=head2 L<Antispam::Toolkit::Role::UserChecker>
 
 A role for classes which check whether a user is a spammer.
 
