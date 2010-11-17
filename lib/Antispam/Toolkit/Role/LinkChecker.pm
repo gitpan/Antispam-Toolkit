@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::LinkChecker;
 BEGIN {
-  $Antispam::Toolkit::Role::LinkChecker::VERSION = '0.01';
+  $Antispam::Toolkit::Role::LinkChecker::VERSION = '0.02';
 }
 
 use strict;
@@ -42,7 +42,7 @@ Antispam::Toolkit::Role::LinkChecker - A role for classes which check whether a 
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 

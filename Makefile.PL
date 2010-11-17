@@ -22,8 +22,21 @@ my %WriteMakefileArgs = (
   'EXE_FILES' => [],
   'LICENSE' => 'artistic_2',
   'NAME' => 'Antispam::Toolkit',
-  'PREREQ_PM' => {},
-  'VERSION' => '0.01',
+  'PREREQ_PM' => {
+    'Archive::Zip' => '0',
+    'BerkeleyDB' => '0',
+    'DateTime' => '0',
+    'File::Temp' => '0',
+    'List::AllUtils' => '0',
+    'Moose' => '0',
+    'MooseX::Params::Validate' => '0',
+    'MooseX::StrictConstructor' => '0',
+    'MooseX::Types' => '0',
+    'Path::Class' => '0',
+    'autodie' => '0',
+    'namespace::autoclean' => '0'
+  },
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }

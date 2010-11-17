@@ -19,6 +19,22 @@
             "ExtUtils::MakeMaker" : "6.31"
          }
       },
+      "runtime" : {
+         "requires" : {
+            "Archive::Zip" : 0,
+            "BerkeleyDB" : 0,
+            "DateTime" : 0,
+            "File::Temp" : 0,
+            "List::AllUtils" : 0,
+            "Moose" : 0,
+            "MooseX::Params::Validate" : 0,
+            "MooseX::StrictConstructor" : 0,
+            "MooseX::Types" : 0,
+            "Path::Class" : 0,
+            "autodie" : 0,
+            "namespace::autoclean" : 0
+         }
+      },
       "test" : {
          "requires" : {
             "Test::More" : "0.88",
@@ -38,6 +54,6 @@
          "web" : "http://hg.urth.org/hg/Antispam-Toolkit"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
 

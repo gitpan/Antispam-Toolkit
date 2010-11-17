@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::Database;
 BEGIN {
-  $Antispam::Toolkit::Role::Database::VERSION = '0.01';
+  $Antispam::Toolkit::Role::Database::VERSION = '0.02';
 }
 
 use strict;
@@ -25,7 +25,7 @@ Antispam::Toolkit::Role::Database - An interface-only role for classes store and
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 DESCRIPTION
 
