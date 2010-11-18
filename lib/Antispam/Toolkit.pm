@@ -1,6 +1,6 @@
 package Antispam::Toolkit;
 BEGIN {
-  $Antispam::Toolkit::VERSION = '0.04';
+  $Antispam::Toolkit::VERSION = '0.05';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Antispam::Toolkit - Classes, roles, and types for use by other Antispam modules
 
 =head1 VERSION
 
-version 0.04
+version 0.05
 
 =head1 DESCRIPTION
 
