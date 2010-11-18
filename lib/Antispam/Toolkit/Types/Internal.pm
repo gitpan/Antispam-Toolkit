@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Types::Internal;
 BEGIN {
-  $Antispam::Toolkit::Types::Internal::VERSION = '0.03';
+  $Antispam::Toolkit::Types::Internal::VERSION = '0.04';
 }
 
 use strict;
