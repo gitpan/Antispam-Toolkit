@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::BerkeleyDB;
 BEGIN {
-  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.05';
+  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.06';
 }
 
 use strict;
@@ -173,7 +173,7 @@ Antispam::Toolkit::Role::BerkeleyDB - A role for classes which store spam check 
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 

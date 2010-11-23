@@ -4,7 +4,7 @@
       "Dave Rolsky <autarch@urth.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.102342, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.102345, CPAN::Meta::Converter version 2.101670",
    "license" : [
       "artistic_2"
    ],
@@ -16,6 +16,7 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
+            "Dist::CheckConflicts" : "0.01",
             "ExtUtils::MakeMaker" : "6.31"
          }
       },
@@ -39,8 +40,7 @@
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.88",
-            "Test::Most" : 0
+            "Test::More" : "0.88"
          }
       }
    },
@@ -56,6 +56,9 @@
          "web" : "http://hg.urth.org/hg/Antispam-Toolkit"
       }
    },
-   "version" : "0.05"
+   "version" : "0.06",
+   "x_conflicts" : {
+      "Antispam::httpBL" : "0.01"
+   }
 }
 

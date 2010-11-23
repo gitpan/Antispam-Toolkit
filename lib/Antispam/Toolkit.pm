@@ -1,6 +1,6 @@
 package Antispam::Toolkit;
 BEGIN {
-  $Antispam::Toolkit::VERSION = '0.05';
+  $Antispam::Toolkit::VERSION = '0.06';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Antispam::Toolkit - Classes, roles, and types for use by other Antispam modules
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 DESCRIPTION
 
@@ -56,11 +56,19 @@ lookup (SQL, Berkeley DB, etc.)
 
 A role for classes which check whether a piece of content is spam.
 
-=head2 L<Antispam::Toolkit::Role::LinkChecker>
+=head2 L<Antispam::Toolkit::Role::EmailChecker>
 
-A role for classes which check whether a link is linking to a spam site.
+A role for classes which check whether an email address is associated with spam
 
-=head2 L<Antispam::Toolkit::Role::UserChecker>
+=head2 L<Antispam::Toolkit::Role::IPChecker>
+
+A role for classes which check whether an IP address is associated with spam
+
+=head2 L<Antispam::Toolkit::Role::URIChecker>
+
+A role for classes which check whether a uri is linking to a spam site.
+
+=head2 L<Antispam::Toolkit::Role::UsernameChecker>
 
 A role for classes which check whether a user is a spammer.
 

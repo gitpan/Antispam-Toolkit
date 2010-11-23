@@ -14,39 +14,41 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 075d5a728cc1225dc446192bfb4aa3539900430d Changes
+SHA1 2cd3192dc72d7c5249382314bb5a2e1f08d01e94 Changes
 SHA1 40eb5a8a3bb322679e84142e403936b67bf4ff7c INSTALL
 SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
-SHA1 9e811bc1ce8c943d5d9ce7eece1c9426f2defc0a MANIFEST
-SHA1 d2dfc6c88bd7835a48009d31373e5c186bb0b9d8 META.json
-SHA1 591bb7dd8f8cacbc6bc858738531f91f0dbc9884 META.yml
-SHA1 8537874165d9268646c629e4d9687077cdd7ad21 Makefile.PL
-SHA1 0590e32997d7ee0c95fbc78c2c4eb1ac4a3421b6 README
-SHA1 20998a3cfce603e723afe155a8e1bd57298731bf dist.ini
-SHA1 5ec2e351cced2e2772e8198d4ef51bafee41dec7 lib/Antispam/Toolkit.pm
-SHA1 c1295ba130706c9977d8bba59befa647dcecc29d lib/Antispam/Toolkit/Result.pm
-SHA1 6c287e209fe005894dc7b857e52856b86643afff lib/Antispam/Toolkit/Role/BerkeleyDB.pm
-SHA1 109be208b0dcbd855fadd59d8cc514e7f8a586bd lib/Antispam/Toolkit/Role/ContentChecker.pm
-SHA1 f2c4f6f33d50e1ae53435f32c8f92df4f383563b lib/Antispam/Toolkit/Role/Database.pm
-SHA1 28b6bbdbc8ad1821d40e638eae0b15751439deef lib/Antispam/Toolkit/Role/LinkChecker.pm
-SHA1 d98ac0f9e15c8741550d4593d9097d83e39e4eb7 lib/Antispam/Toolkit/Role/UserChecker.pm
-SHA1 de594da5a68e1d91a30b46d932e5158c5c7a804a lib/Antispam/Toolkit/Types.pm
-SHA1 064e1112fd275de3290bb66576ed6e9746324a70 lib/Antispam/Toolkit/Types/Internal.pm
+SHA1 e9bb03718fd5ac73321bf5f79fecefb51781b236 MANIFEST
+SHA1 9a97ee77114d568441bfdaece7d7dc0e6c226bf7 META.json
+SHA1 7f72ed1f67208264f1df2a1db3b2fa895e02330d META.yml
+SHA1 4e6b0f937b344ebaf0269cfe9c580eefddfe450e Makefile.PL
+SHA1 6fb0b0b2452c4a2eac95f880e55a8e20d33ade44 README
+SHA1 bea8d0a5031e6c4fe0a859b07edc33c754f7067e dist.ini
+SHA1 d7dbd2fb128e24ada287bae4396d39942cf7010c lib/Antispam/Toolkit.pm
+SHA1 9699f3c47bd0f6323aa01be37d8faece2094fd25 lib/Antispam/Toolkit/Conflicts.pm
+SHA1 9fc84cf46f2c6778a78eb4a39f409b7f4d781ac6 lib/Antispam/Toolkit/Result.pm
+SHA1 b8f3f4ef63f8216bfd9ce82bd2f9e2d2beee97d4 lib/Antispam/Toolkit/Role/BerkeleyDB.pm
+SHA1 85d8fe1133e3f3930a6e1733f561e7f7ee7f4f64 lib/Antispam/Toolkit/Role/ContentChecker.pm
+SHA1 dd13d68f3ecce968991c7395923139e2c36f91eb lib/Antispam/Toolkit/Role/Database.pm
+SHA1 f5551ad9367288bfaf4fc62bfbbc4833921f9138 lib/Antispam/Toolkit/Role/EmailChecker.pm
+SHA1 a457906e274735421850b945364f3b05ccdc9e87 lib/Antispam/Toolkit/Role/IPChecker.pm
+SHA1 5c99d1eb973e4180955b0ebee2430b38dea6defe lib/Antispam/Toolkit/Role/URIChecker.pm
+SHA1 801b6de75a995d72444220c3615fa8e1e1f10f27 lib/Antispam/Toolkit/Role/UsernameChecker.pm
+SHA1 cef794a0fb17eda007c3712d2a8b4be6d9549abe lib/Antispam/Toolkit/Types.pm
+SHA1 fff1e740622f9999c41e8aa5261211bb124afe7c lib/Antispam/Toolkit/Types/Internal.pm
 SHA1 632bc860a1d7914f9fc4fb67a0d806bc48e2aa47 t/BerkeleyDB.t
 SHA1 b3a92fa4f21a0729d45457b63c04f0d878cfa73d t/Result.t
-SHA1 6dc41c031be728c37263569b5f8c087bbca74632 t/UserChecker.t
 SHA1 2c4cbfe49b8ede97f88a8c31ceabf84ec5ee0a2a t/data/listed_email_7.txt
 SHA1 e6d1b74040e4e5722fd4b94eb472349706ea5a0b t/data/more_email.txt
 SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
 SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
 SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
-SHA1 f579047e6094b22e334fb1c4ce62219fb28bb686 t/release-pod-coverage.t
-SHA1 9402aa41699ae10315169fcfab3c2e83ac3577d4 t/release-pod-spell.t
+SHA1 f77552b82463a39324fd2a13ae15d2c146213bf5 t/release-pod-coverage.t
+SHA1 ce3cd60596d39a197c70ad6335346e6be6c845ef t/release-pod-spell.t
 SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iEYEARECAAYFAkzlXtsACgkQIgMCsV8qvRKDzwCfUjfucWrx9SzgkkH07uC8zC92
-J7gAoIcCW9UcYmIBe9NBAEJ32kmc3nsR
-=xmYq
+iEYEARECAAYFAkzr7jcACgkQIgMCsV8qvRKAMwCghUTsigL52DdaqC6PdwmWnrvb
+TewAn2FbrQ0eVDy9t4vgDrd98GI3J3nf
+=BS6P
 -----END PGP SIGNATURE-----

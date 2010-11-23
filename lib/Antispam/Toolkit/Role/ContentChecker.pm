@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::ContentChecker;
 BEGIN {
-  $Antispam::Toolkit::Role::ContentChecker::VERSION = '0.05';
+  $Antispam::Toolkit::Role::ContentChecker::VERSION = '0.06';
 }
 
 use strict;
@@ -30,9 +30,6 @@ around check_content => sub {
         \@_,
         content_type => { isa => NonEmptyStr },
         content      => { isa => NonEmptyStr },
-        email        => { isa => NonEmptyStr, optional => 1 },
-        ip           => { isa => NonEmptyStr, optional => 1 },
-        username     => { isa => NonEmptyStr, optional => 1 },
     );
 
     return
@@ -56,7 +53,7 @@ Antispam::Toolkit::Role::ContentChecker - A role for classes which check whether
 
 =head1 VERSION
 
-version 0.05
+version 0.06
 
 =head1 SYNOPSIS
 
@@ -106,18 +103,6 @@ The MIME type for the piece of content.
 =item * content
 
 The content itself. This must be a non-empty string.
-
-=item * email
-
-An email address associated with the content. This is optional.
-
-=item * ip
-
-An ip address associated with the content. This is optional.
-
-=item * username
-
-A username associated with the content. This is optional.
 
 =back
 
