@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::URIChecker;
 BEGIN {
-  $Antispam::Toolkit::Role::URIChecker::VERSION = '0.07';
+  $Antispam::Toolkit::Role::URIChecker::VERSION = '0.08';
 }
 
 use strict;
@@ -39,7 +39,7 @@ Antispam::Toolkit::Role::URIChecker - A role for classes which check whether a u
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

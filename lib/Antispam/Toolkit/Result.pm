@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Result;
 BEGIN {
-  $Antispam::Toolkit::Result::VERSION = '0.07';
+  $Antispam::Toolkit::Result::VERSION = '0.08';
 }
 
 use strict;
@@ -8,7 +8,7 @@ use warnings;
 
 use Antispam::Toolkit::Types qw( Details NonNegativeNum );
 
-use overload 'bool' => sub { $_[0]->is_spam() };
+use overload 'bool' => sub { $_[0]->score() > 0 };
 
 use Moose;
 use MooseX::StrictConstructor;
@@ -47,7 +47,7 @@ Antispam::Toolkit::Result - Represents the result of a spam check
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 
@@ -97,6 +97,11 @@ Returns the score for the result.
 =head2 $result->details()
 
 Returns I<a list> of strings. This list may be empty.
+
+=head1 OVERLOADING
+
+This object overloads the boolean operator. If the score is greater than 0, it
+overloads as true, otherwise it overloads as false.
 
 =head1 BUGS
 

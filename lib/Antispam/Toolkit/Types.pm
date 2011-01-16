@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Types;
 BEGIN {
-  $Antispam::Toolkit::Types::VERSION = '0.07';
+  $Antispam::Toolkit::Types::VERSION = '0.08';
 }
 
 use strict;
@@ -32,7 +32,7 @@ Antispam::Toolkit::Types - Types for use by Antispam modules
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 DESCRIPTION
 

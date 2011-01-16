@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::EmailChecker;
 BEGIN {
-  $Antispam::Toolkit::Role::EmailChecker::VERSION = '0.07';
+  $Antispam::Toolkit::Role::EmailChecker::VERSION = '0.08';
 }
 
 use strict;
@@ -41,7 +41,7 @@ Antispam::Toolkit::Role::EmailChecker - A role for classes which check whether a
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 
