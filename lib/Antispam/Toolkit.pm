@@ -1,6 +1,6 @@
 package Antispam::Toolkit;
 BEGIN {
-  $Antispam::Toolkit::VERSION = '0.06';
+  $Antispam::Toolkit::VERSION = '0.07';
 }
 
 use strict;
@@ -20,7 +20,7 @@ Antispam::Toolkit - Classes, roles, and types for use by other Antispam modules
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 DESCRIPTION
 
@@ -102,11 +102,11 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 

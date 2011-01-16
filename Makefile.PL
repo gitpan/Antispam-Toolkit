@@ -39,7 +39,7 @@ my %WriteMakefileArgs = (
     'autodie' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '0.06',
+  'VERSION' => '0.07',
   'test' => {
     'TESTS' => 't/*.t'
   }
@@ -83,8 +83,8 @@ sub check_conflicts {
 ***
     Your toolchain doesn't support configure_requires, so Dist::CheckConflicts
     hasn't been installed yet. You should check for conflicting modules
-    manually using the 'package-stash-conflicts' script that is installed with
-    this distribution once the installation finishes.
+    manually by examining the list of conflicts in Antispam::Toolkit::Conflicts once the installation
+    finishes.
 ***
 EOF
     }

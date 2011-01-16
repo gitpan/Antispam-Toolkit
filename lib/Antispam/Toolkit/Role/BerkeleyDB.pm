@@ -1,6 +1,6 @@
 package Antispam::Toolkit::Role::BerkeleyDB;
 BEGIN {
-  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.06';
+  $Antispam::Toolkit::Role::BerkeleyDB::VERSION = '0.07';
 }
 
 use strict;
@@ -99,7 +99,7 @@ sub build {
         -Filename => $database,
         -Flags    => DB_CREATE,
         -Env      => $env,
-    );
+    ) or die "Could not open $database: $! $BerkeleyDB::Error\n";
 
     if ($update) {
         $class->_extract_data_from_file( $file, $db );
@@ -173,7 +173,7 @@ Antispam::Toolkit::Role::BerkeleyDB - A role for classes which store spam check 
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
@@ -309,11 +309,11 @@ Dave Rolsky <autarch@urth.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2010 by Dave Rolsky.
+This software is Copyright (c) 2011 by Dave Rolsky.
 
 This is free software, licensed under:
 
-  The Artistic License 2.0
+  The Artistic License 2.0 (GPL Compatible)
 
 =cut
 
